@@ -3,9 +3,12 @@
 #show: submission.with(
   lab: 4,
   title: "Direct/Global Separation",
-  group: none,
+  group: 11,
   authors: (
-    (name: "Member Name", email: "gatorlink@ufl.edu"),
+    (name: "Md Shah Imran Shovon", email: "shovon.m@ufl.edu"),
+    (name: "Ryan Frazer", email: "ryan.frazer@ufl.edu"),
+    (name: "Yuxuan Huang", email: "huang.yuxuan@ufl.edu"),
+    (name: "Zhaoxu GUO", email: "guozhaoxu@ufl.edu"),
   ),
   date: datetime.today(),
 )
@@ -63,4 +66,10 @@
 
 = AI disclosure
 
-- *#todo[Member Name]*: #todo[AI tools this member used and for what.]
+- *Md Shah Imran Shovon*: #todo[AI tools this member used and for what.]
+
+- *Ryan Frazer*: #todo[AI tools this member used and for what.]
+
+- *Yuxuan Huang*: #todo[AI tools this member used and for what.]
+
+- *Zhaoxu GUO*: #todo[AI tools this member used and for what.]
