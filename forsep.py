@@ -39,12 +39,12 @@ print("frames used:", vid.shape[0], "size:", vid.shape[1:3])
 global_im = vid.min(axis=0)
 
 # The floodlit image is the maximum over time. Fill in the right code.
-floodlit_im = ...
+floodlit_im = vid.max(axis=0)
 
 # The direct image is floodlit minus global. Fill in the right code. Beware:
 # subtracting uint8 arrays wraps around, so convert to int first and clip
 # back to 0..255 before saving.
-direct_im = ...
+direct_im = np.clip(floodlit_im.astype(int) - global_im.astype(int), 0, 255).astype(np.uint8)
 
 cv2.imwrite("global.png", global_im)
 cv2.imwrite("floodlit.png", floodlit_im)
